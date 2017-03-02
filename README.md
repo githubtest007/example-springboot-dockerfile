@@ -14,4 +14,4 @@ docker run -t -i -p 8080:8080 jtpark-dockerimage/example-springboot-docker
 
 
 http://192.168.99.100:8080/
-
+ 
