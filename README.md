@@ -6,7 +6,7 @@
 This example builds and deploys a SpringBoot inside Docker using Apache Maven
 
 
-To build and run it:
+To build and run it in Windows 10:
 
 mvn install -Ddocker.host=tcp://192.168.99.100:2376 -Pbuild-docker-image
 
