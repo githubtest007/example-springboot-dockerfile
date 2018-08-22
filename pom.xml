@@ -73,7 +73,7 @@
 					<!--覆盖已存在的标签 镜像-->
 					<forceTags>true</forceTags>
 					<!--使用pom 配置-->
-					<baseImage>java</baseImage>
+					<baseImage>172.26.255.128:10443/bdap/ubuntu-jdk8</baseImage>
 					<entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>
 					<!--使用pom 配置 END-->
 					<!--使用 Dockerfile-->
